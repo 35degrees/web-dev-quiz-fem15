@@ -163,7 +163,7 @@ function nextQuestion() {
 					showQuestions(data.quizzes[3])
 				}
 			})
-	} else if (score > 8) {
+	} else if (score >= 8) {
 		outputBox.style.display = 'flex'
 		correct.style.display = 'block'
 		again.style.display = 'flex'
@@ -171,7 +171,7 @@ function nextQuestion() {
 		You passed with a score of ${score}!
 		`
 		quizScore.innerHTML = ''
-	} else if (score <= 8) {
+	} else if (score < 8) {
 		outputBox.style.display = 'flex'
 		correct.style.display = 'block'
 		again.style.display = 'flex'
