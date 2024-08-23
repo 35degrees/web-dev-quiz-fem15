@@ -111,8 +111,8 @@ body.dark-mode {
 	/* border: 1px dotted #ccc; */
 	margin-left: 1rem;
 	margin-right: 1rem;
-	transition: all 0.5s;
-	transition-behavior: allow-discrete;
+	/* transition: all 0.5s;
+	transition-behavior: allow-discrete; */
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1.5rem;
@@ -128,8 +128,8 @@ body.dark-mode {
 
 .left,
 .right {
-	transition: all 0.6s;
-	transition-behavior: allow-discrete;
+	/* transition: all 0.6s;
+	transition-behavior: allow-discrete; */
 	/* border: 1px dotted gold; */
 }
 

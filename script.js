@@ -54,7 +54,6 @@ function startQuiz(e) {
 				showQuestions(data.quizzes[3])
 			}
 		})
-	setTimeout(() => {}, 5500)
 }
 
 function showQuestions(quiz) {
