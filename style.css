@@ -226,8 +226,8 @@ body.dark-mode {
 	padding: 1rem;
 	text-align: center;
 	gap: 1rem;
-	transition: all 0.6s;
-	transition-behavior: allow-discrete;
+	/* transition: all 0.6s;
+	transition-behavior: allow-discrete; */
 }
 
 .quiz-box h1,
@@ -304,8 +304,8 @@ body.dark-mode {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	transition: all 0.6s;
-	transition-behavior: allow-discrete;
+	/* transition: all 0.6s;
+	transition-behavior: allow-discrete; */
 	gap: 1rem;
 }
 
