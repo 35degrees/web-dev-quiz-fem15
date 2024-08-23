@@ -111,7 +111,7 @@ body.dark-mode {
 	/* border: 1px dotted #ccc; */
 	margin-left: 1rem;
 	margin-right: 1rem;
-	transition: all 0.05s;
+	transition: all 0.5s;
 	transition-behavior: allow-discrete;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
